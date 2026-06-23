@@ -362,27 +362,46 @@
       whole block from <svg class="truck" ...> down to its closing </svg>.
     -->
     <!-- recovery truck silhouette -->
-    <svg class="truck" viewBox="0 0 560 150" fill="none" aria-hidden="true">
-      <g fill="var(--amber)">
-        <!-- flatbed ramp + bed -->
-        <path d="M150 96 L470 96 L470 104 L150 104 Z"/>
-        <path d="M150 96 L92 118 L92 126 L160 104 Z"/>
-        <!-- loaded car -->
-        <path d="M188 96 L196 74 Q199 68 206 68 L256 68 Q263 68 268 74 L284 96 Z" opacity=".55"/>
-        <circle cx="214" cy="96" r="9" opacity=".55"/><circle cx="262" cy="96" r="9" opacity=".55"/>
-        <!-- cab -->
-        <path d="M470 104 L470 58 Q470 52 476 52 L500 52 L520 80 L520 104 Z"/>
-        <rect x="478" y="60" width="26" height="20" rx="3" fill="var(--asphalt)"/>
-      </g>
+    <svg class="truck" viewBox="0 0 580 170" fill="none" aria-hidden="true">
+      <ellipse cx="300" cy="150" rx="252" ry="7" fill="#000" opacity="0.18"/>
+      <!-- ramp -->
+      <path d="M100 96 L32 122 L48 132 L114 105 Z" fill="var(--amber)"/>
+      <path d="M100 96 L32 122 L37 124 L105 99 Z" fill="#fff" opacity="0.14"/>
+      <!-- chassis frame -->
+      <rect x="64" y="105" width="460" height="11" rx="5" fill="var(--amber)"/>
+      <rect x="64" y="105" width="460" height="11" rx="5" fill="#000" opacity="0.24"/>
+      <!-- flatbed deck -->
+      <rect x="92" y="91" width="356" height="15" rx="5" fill="var(--amber)"/>
+      <rect x="97" y="92" width="346" height="3" rx="2" fill="#fff" opacity="0.20"/>
+      <!-- headboard between bed and cab -->
+      <rect x="436" y="66" width="12" height="40" rx="3" fill="var(--amber)"/>
+      <rect x="436" y="66" width="12" height="40" rx="3" fill="#000" opacity="0.10"/>
+      <!-- loaded car -->
+      <path d="M158 90 L158 83 Q158 77 167 76 L312 76 Q325 76 328 84 L329 90 Z" fill="var(--amber)" opacity="0.6"/>
+      <path d="M190 76 L203 64 Q206 61 211 61 L268 61 Q275 61 279 66 L290 76 Z" fill="var(--amber)" opacity="0.6"/>
+      <rect x="205" y="64" width="74" height="12" rx="3" fill="var(--asphalt)" opacity="0.5"/>
+      <line x1="242" y1="64" x2="242" y2="76" stroke="var(--amber)" stroke-width="2" opacity="0.5"/>
+      <circle cx="198" cy="88" r="8.5" fill="var(--asphalt)"/><circle cx="198" cy="88" r="3" fill="var(--amber)"/>
+      <circle cx="292" cy="88" r="8.5" fill="var(--asphalt)"/><circle cx="292" cy="88" r="3" fill="var(--amber)"/>
+      <!-- cab -->
+      <path d="M448 106 L448 64 Q448 56 457 56 L502 56 L512 77 L543 79 Q553 80 553 91 L553 106 Z" fill="var(--amber)"/>
+      <rect x="452" y="58" width="60" height="3" rx="2" fill="#fff" opacity="0.18"/>
+      <path d="M448 106 L553 106 L553 99 L448 99 Z" fill="#000" opacity="0.12"/>
+      <rect x="458" y="64" width="46" height="20" rx="5" fill="var(--asphalt)"/>
+      <line x1="483" y1="64" x2="483" y2="84" stroke="var(--amber)" stroke-width="2.5"/>
+      <path d="M463 82 L479 65 L485 65 L469 82 Z" fill="#fff" opacity="0.16"/>
+      <line x1="504" y1="79" x2="504" y2="106" stroke="#000" stroke-width="2" opacity="0.16"/>
+      <rect x="546" y="90" width="7" height="9" rx="2" fill="var(--hi-vis)"/>
+      <!-- beacon -->
+      <ellipse cx="475" cy="53" rx="26" ry="13" fill="var(--hi-vis)" opacity="0.22"/>
+      <rect x="463" y="48" width="24" height="9" rx="4" fill="var(--hi-vis)"/>
       <!-- wheels -->
-      <g fill="var(--paper)">
-        <circle cx="140" cy="118" r="17"/><circle cx="412" cy="118" r="17"/><circle cx="496" cy="118" r="17"/>
-      </g>
-      <g fill="var(--asphalt)">
-        <circle cx="140" cy="118" r="7"/><circle cx="412" cy="118" r="7"/><circle cx="496" cy="118" r="7"/>
-      </g>
-      <!-- amber beacon on cab -->
-      <rect x="484" y="46" width="14" height="6" rx="3" fill="var(--hi-vis)"/>
+      <circle cx="180" cy="120" r="25" fill="var(--paper)"/>
+      <circle cx="180" cy="120" r="14" fill="var(--asphalt)"/>
+      <circle cx="180" cy="120" r="5" fill="var(--amber)"/>
+      <circle cx="500" cy="120" r="25" fill="var(--paper)"/>
+      <circle cx="500" cy="120" r="14" fill="var(--asphalt)"/>
+      <circle cx="500" cy="120" r="5" fill="var(--amber)"/>
     </svg>
   </div>
 </section>
