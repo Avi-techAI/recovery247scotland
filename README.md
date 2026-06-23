@@ -11,7 +11,7 @@
 
 ## Project Overview
 
-A high-conversion landing page built for **Recovery 24x7 Scotland**, a 24/7 car and van recovery business operating across Glasgow and a 20-mile radius. The primary business goal is to maximise inbound phone calls from drivers who have broken down or been involved in an accident.
+A high-conversion landing page designed for **Recovery 24x7 Scotland**, a 24/7 car and van recovery business operating across Glasgow and a 20-mile radius. The primary business goal is to maximise inbound phone calls from drivers who have broken down or been involved in an accident.
 
 This project was built from scratch as a real commercial product, covering the full process from competitor research and UX strategy through to design, development, and live deployment via a GitHub → Netlify CI/CD pipeline.
 
