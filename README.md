@@ -78,11 +78,11 @@ These findings directly informed the page structure and copy.
 - Pulsing "Open Now" beacon indicator
 - Six service cards with icons
 - Non-fault accident recovery highlight panel
-- 20-mile coverage area with town list and radius graphic
+- 20 mile coverage area with town list and radius graphic
 - Three-step "how it works" section
 - Customer reviews section (placeholder, ready for real reviews)
 - Transparent pricing reassurance block
-- Expandable FAQ section
+- Expandable FAQ section which looks elegant
 - Full footer with contact details and service area
 - Fully commented source code for non-technical editing
 
