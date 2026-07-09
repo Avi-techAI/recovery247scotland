@@ -89,15 +89,15 @@ These findings directly informed the page structure and copy.
 
 ## Deployment
 
-The site is deployed via a GitHub → Netlify continuous deployment pipeline.
+The site is deployed via a GitHub → Hostinger web hosting.
 
-- Every commit to the `main` branch triggers an automatic redeploy on Netlify
+- Every commit to the `main` branch triggers an automatic redeploy on Hostinger
 - Deployment typically completes in under 30 seconds
-- HTTPS is provided automatically by Netlify
+- HTTPS is provided automatically by Hostinger
 
 **To deploy your own copy:**
 1. Fork this repository
-2. Connect the fork to a Netlify account via "Import from Git"
+2. Connect the fork to a Hostinger account via "Import from Git"
 3. Leave all build settings blank (no build command needed)
 4. Click Deploy
 
@@ -134,5 +134,5 @@ This landing page was built as part of a real business launch for a vehicle reco
 | Vanilla JavaScript | CONFIG system, dynamic contact detail injection |
 | Google Fonts | Anton (display) and Archivo (body) typefaces |
 | SVG | Inline recovery truck illustration and all icons |
-| Netlify | Hosting and continuous deployment |
+| Hostinger | Hosting and continuous deployment |
 | GitHub | Version control and portfolio evidence |
